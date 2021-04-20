@@ -19,10 +19,10 @@ import string
 
 
 
-# [числа] Динамический список от 0 до 10000
+# [числа] Динамический список от 0 до 50000
 array_dynamic_num = [random.random() * 5000 for i in range(5000)]
 
-# [строки] Динамический список от 0 до 10000
+# [строки] Динамический список от 0 до 3500
 array_dynamic_str = list(' '.join(random.choice(string.ascii_lowercase) for i in range(3500)))
 
 
