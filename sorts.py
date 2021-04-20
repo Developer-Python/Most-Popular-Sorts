@@ -134,3 +134,6 @@ class Sorts():
 
 START = Sorts.bubble_sort(array_dynamic_num)
 print(START)
+
+
+# Автор: Орлов Евгений
