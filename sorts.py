@@ -13,27 +13,22 @@ import string
 # Модуль для использования многопоточности
 import threading
 
-import asyncio
-
 #------------------------------------------------------------------------------#
 #------------------------  Глобальные переменные  -----------------------------#
 #------------------------------------------------------------------------------#
 
 
-
-<<<<<<< Updated upstream
 # [числа] Динамический список от 0 до 50000
 array_dynamic_num = [random.random() * 5000 for i in range(5000)]
 
 # [строки] Динамический список от 0 до 3500
 array_dynamic_str = list(' '.join(random.choice(string.ascii_lowercase) for i in range(3500)))
-=======
+
 # [числа] Динамический список от 0 до 3000
 array_dynamic_num = [random.random() * 3000 for i in range(3000)]
 
-# [строки] Динамический список от 0 до 10000
+# [строки] Динамический список от 0 до 3000
 array_dynamic_str = list(' '.join(random.choice(string.ascii_lowercase) for i in range(3000)))
->>>>>>> Stashed changes
 
 
 
@@ -141,14 +136,8 @@ class Sorts():
 #-------------------------------  Запуск  -------------------------------------#
 #------------------------------------------------------------------------------#
 
-<<<<<<< Updated upstream
 START = Sorts.bubble_sort(array_dynamic_num)
 print(START)
 
 
 # Автор: Орлов Евгений
-=======
-# [Test speed - numbers]
-START = asyncio.run(Sorts.bubble_sort(array_dynamic_num))
-START_02 = asyncio.run(Sorts.bubble_sort(array_dynamic_num))
->>>>>>> Stashed changes
